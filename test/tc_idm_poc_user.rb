@@ -1,10 +1,10 @@
 require "test/unit"
-require_relative "../lib/freeipa_easy/user.rb"
+require_relative "../lib/idm_poc/user.rb"
  
-class TestFreeipaEasy < Test::Unit::TestCase
+class TestIdmPoc < Test::Unit::TestCase
  
   def test_simple
-    test = FreeipaEasy::User.new("https://localhost","admin","Passw0rd")
+    test = IdmPoc::User.new("https://localhost","admin","Passw0rd")
     assert_equal(true, test.authentication_password)
     assert_equal(nil, test.show_user("admin"))
     assert_equal(nil, test.delete_user("test"))

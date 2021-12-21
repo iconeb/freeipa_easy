@@ -1,13 +1,13 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'freeipa_easy/version'
+require 'idm_poc/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "freeipa_easy"
-  spec.version       = FreeipaEasy::VERSION
-  spec.authors       = ["Hanna Novikava"]
-  spec.email         = ["arnikasky@gmail.com"]
+  spec.name          = "idm_poc"
+  spec.version       = IdmPoc::VERSION
+  spec.authors       = ["Federico Nebiolo"]
+  spec.email         = ["iconeb@yahoo.it"]
 
   spec.summary       = %q{Help to work with users in freeipa}
   spec.description   = %q{It's a small library, which will help with users and may be with other things in freeipa}

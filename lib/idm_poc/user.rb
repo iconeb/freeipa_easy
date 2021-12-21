@@ -1,4 +1,4 @@
-module FreeipaEasy
+module IdmPoc
   require 'rest-client'
   require 'json'
    class User

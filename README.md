@@ -1,6 +1,6 @@
-# FreeipaEasy
+# IdmPoc
 
-Welcome to Freeipa Easy! 
+Welcome to Idm Poc! 
 
 You can use this gem to easy connect to free ipa system and wok with users in this system/
 
@@ -9,7 +9,7 @@ You can use this gem to easy connect to free ipa system and wok with users in th
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'freeipa_easy'
+gem 'idm_poc'
 ```
 
 And then execute:
@@ -18,12 +18,12 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install freeipa_easy
+    $ gem install idm_poc
 
 ## Usage
 1) Create object:
 
-test_con = FreeipaEasy::User("http://localhost", "admin", "pass") 
+test_con = IdmPoc::User("http://localhost", "admin", "pass") 
 
 2) Authorization
 
